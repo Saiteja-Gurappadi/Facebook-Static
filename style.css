@@ -180,7 +180,18 @@ body{
     border-radius: 20px;
     margin-left: 10px;
 }
-
+.last-bar2 i{
+    display:none;
+    font-size: 27px;
+    color:rgb(169, 165, 165);
+    padding:10px;
+    margin-left:10px;
+    margin-top: 15px;
+}
+.last-bar2 i:hover{
+    background-color: rgba(137, 134, 134, 0.305);
+    border-radius: 10px;
+}
 .side-bar{
     width:20%;
     background-color:transparent;
@@ -567,4 +578,87 @@ body{
 .second button:hover{
     background-color: rgb(70, 67, 67);
     border-radius: 8px;
+}
+@media (max-width:1380px){
+    .options{
+        width:70%;
+    }
+    .main-page{
+        width:67%;
+        left:15%;
+    }
+    .right-bar{
+        width:25%;
+    }
+    .side-bar{
+    width: 24%;
+    }
+}
+@media (max-width:1280px) {
+    .options{
+        width:75%;
+    }
+    .first-bar{
+        width:100%;
+    }
+    .main-page{
+        width:72%;
+        left:12%;
+    }
+    .right-bar{
+        width:24%;
+    }
+}
+@media (max-width:1190px) {
+    .middle-bar{
+        display: none;
+    }
+    .side-bar{
+        display:none;
+    }
+    .main-page{
+        left:0;
+        width:80%;
+    }
+    .right-bar{
+        width:26%;
+    }
+
+}
+@media (max-width:1050px) {
+    .right-bar{
+        display: none;
+    }
+    .main-page{
+        width: 100%;
+    }
+}
+@media (max-width:900px) {
+    .story-div{
+        width: 90%;
+    }
+    .post-div{
+        width: 70%;
+    }
+    .content-div{
+        width:70%;
+    }
+}
+@media (max-width:659px){
+    .story-div{
+        width: 99%;
+    }
+    .post-div{
+        width:90%;    
+    }
+    .content-div{
+        width:90%;
+    }
+
+    .last-bar{
+        display: none;
+    }
+    .last-bar2 i{
+        display: inline;
+    }
 }

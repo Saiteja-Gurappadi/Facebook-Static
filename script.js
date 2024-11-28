@@ -1,9 +1,24 @@
 
-let likescount = document.getElementById("likes-count");
-function like(){
-    document.getElementById("likes-button").style.background="#1877f2";
-    document.getElementById("likes-button").style.borderRadius="8px";
-    let updatedlikes=likescount.textContent;
-    newlikes =parseInt(updatedlikes) + 1
-    likescount.textContent=newlikes;
-}
+let likesbtn = document.querySelector("#likes-button");
+let likescount = document.querySelector("#likes-count");
+likesbtn.addEventListener("click" , () => {
+    likesbtn.style.backgroundColor="#1877f2";
+    likesbtn.style.borderRadius="8px";
+    likescount.innerText = parseInt(likescount.innerText) +1
+    console.log("running")
+    likesbtn.disabled=true;
+})
+let comment =document.querySelector("#comment");
+let send =document.querySelector("#send");
+let share =document.querySelector("#share");
+let commentCount = document.querySelector("#comment-count");
+comment.addEventListener("click",() =>{
+    comment.style.backgroundColor="#1877f2";
+    comment.style.borderRadius="8px";
+    comment = prompt();
+    commentCount.innerText = parseInt(commentCount.innerText) +1;
+})
+let login = document.querySelector("#login");
+login.addEventListener("click",() => {
+    
+})

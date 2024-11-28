@@ -4,98 +4,6 @@
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
 }
-.container{
-    margin-top:10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:60px;
-    
-}
-.fb-intro{
-    height:30%px;
-    width:33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.fb-intro h1{
-    color:#1877f2;
-    font-weight: bolder;    
-    font-size:60px;
-}
-.fb-intro p{
-    color:black;
-    font-size:28px;
-
-}
-.login-card{
-    background-color:white;
-    height:330px;
-    width:25%;
-    display: flex;
-    flex-direction: column;
-    border:none;
-    padding:20px;
-    border-radius:15px;
-    text-align: center;
-    box-shadow: red;
-    box-shadow: 0px 2px 10px rgba(0,0,0,0.2)
-}
-.inputs{
-    display:flex;
-    flex-direction: column;
-    gap:15px;
-    
-}
-.inputs input{
-    width:100%;
-    padding:15px 10px;
-    border-radius: 8px;
-    border: 0.5px solid gray;
-}
-.inputs input:hover{
-   border-color: #1877f2;
-}
-.inputs input::placeholder{
-    color:grey;
-    font-size:15px;
-    font-weight: 500;
-}
-.login-btn{
-    width:100%;
-    margin-top:15px;
-    background-color: #1877f2;
-    color:white;
-    font-weight: bold;
-    font-size:20px;
-    border:none;
-    border-radius:10px;
-    padding:12px;
-}
-.login-card a{
-    margin-top: 15px;
-    color:#1877f2;
-    margin-bottom:15px;
-    text-decoration: none;
-}
-.login-card a:hover{
-    text-decoration: underline;
-}
-.login-card hr{
-    margin-bottom:20px;
-}
-.new-btn{
-    background-color: rgb(24, 180, 24);
-    color:aliceblue;
-    padding:15px;
-    width:55%;
-    border:none;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size:15px;
-    margin-left:20%;
-}
 body{
     background-color: rgb(30, 29, 29);
 }
@@ -180,18 +88,7 @@ body{
     border-radius: 20px;
     margin-left: 10px;
 }
-.last-bar2 i{
-    display:none;
-    font-size: 27px;
-    color:rgb(169, 165, 165);
-    padding:10px;
-    margin-left:10px;
-    margin-top: 15px;
-}
-.last-bar2 i:hover{
-    background-color: rgba(137, 134, 134, 0.305);
-    border-radius: 10px;
-}
+
 .side-bar{
     width:20%;
     background-color:transparent;
@@ -270,6 +167,11 @@ body{
     color:grey;
     margin-top:20px;
     font-weight: bold;
+}
+.ball-pool a{
+    display: flex;
+    align-items: center;
+    gap:10px;
 }
 .see-more2{
     padding-top:0;
@@ -416,6 +318,9 @@ body{
     padding-left:5px;
     margin-left:10px;
     color:#a29999;
+}
+.comment-input{
+    /* display: none; */
 }
 .post-div hr{
     margin:5px 0px;
